@@ -1,10 +1,5 @@
 Smart Agriculture - Adaptive Irrigation & Digital Twin 
 
-Progetto realizzato per il corso di Intelligent Internet of Things (A.A. 2023/2024).
-
-Studente: [Tuo Nome e Cognome]
-
-Matricola: [Tua Matricola]
 
 Scenario Applicativo
 
@@ -51,7 +46,7 @@ Maintenance Alert: Batteria del nodo scarica.
 
 New Configs: Invia nuove configurazioni e soglie operative ai nodi sul campo (es. cambio di coltura stagionale) senza necessità di riavviarli.
 
-📊 Modello Dati Telemetria (SenML + JSON)
+Modello Dati Telemetria (SenML + JSON)
 
 Utilizzato per l'invio periodico dei dati dai sensori al Cloud, rispettando gli standard industriali.
 
@@ -103,11 +98,10 @@ Boolean
 
 Stato precipitazioni (true = Piove)
 
-📡 Comunicazione e Protocollo MQTT
+Comunicazione e Protocollo MQTT
 
 Il sistema utilizza esclusivamente il protocollo MQTT. La scelta è motivata dalla natura asincrona della telemetria, dal disaccoppiamento tra campo e cloud, e dalla leggerezza del protocollo, ideale per dispositivi alimentati a batteria.
 
-Tutti i Topic sono isolati all'interno di un Base Topic protetto: /iot/user/<matricola>/
 
 MQTT Topics & Data
 
