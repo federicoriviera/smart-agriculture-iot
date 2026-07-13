@@ -1,0 +1,14 @@
+# Ignora le cartelle di cache di Python
+__pycache__/
+*.pyc
+
+# Ignora la cartella virtual environment (se ne usi una)
+venv/
+env/
+.venv/
+
+# Ignora i log autogenerati (non serve salvarli su internet)
+logs/
+
+# Ignora i file di PowerPoint (meglio tenerli separati)
+*.pptx

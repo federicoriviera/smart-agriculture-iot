@@ -1,0 +1,1 @@
+timestamp 1783785960.3723717: Log del Data Manager pulito e avviato.

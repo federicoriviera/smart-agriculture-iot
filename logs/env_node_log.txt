@@ -1,0 +1,1 @@
+timestamp 1783785988.2083495: Log del nodo ambientale inizializzato.
