@@ -20,7 +20,7 @@ class EnvNodeDigitalTwin:
             "humidity": None,
             "wind_speed": None,
             "is_raining": None,
-            "irrigation_status": "OFF",  # Stato simulato dell'attuatore
+            "irrigation_status": "OFF",
             "rotation_status": "ON",
         }
 

@@ -1,8 +1,8 @@
 class MqttConfigurationParameters(object):
-    BROKER_ADDRESS = "broker.hivemq.com"
-    BROKER_PORT = 1883
-    MQTT_USERNAME = "progetto_test_agri_12345"
-    MQTT_PASSWORD = ""
+    BROKER_ADDRESS = "155.185.4.4"
+    BROKER_PORT = 7883
+    MQTT_USERNAME = "321408@studenti.unimore.it"
+    MQTT_PASSWORD = "mvwjuhqwbkpskocz"
 
     DATA_MANAGER_CLIENT_ID = "agri_central_manager"
     MQTT_BASIC_TOPIC = "/iot/user/{0}".format(MQTT_USERNAME)
