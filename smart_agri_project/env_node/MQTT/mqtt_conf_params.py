@@ -4,7 +4,7 @@ class MqttConfigurationParameters(object):
     MQTT_USERNAME = "321408@studenti.unimore.it"
     MQTT_PASSWORD = "mvwjuhqwbkpskocz"
 
-    DATA_MANAGER_CLIENT_ID = "agri_central_manager"
+    DATA_MANAGER_CLIENT_ID = "agri_central_manager_321408"
     MQTT_BASIC_TOPIC = "/iot/user/{0}".format(MQTT_USERNAME)
 
     NODE_TOPIC = "env_node"  # Invece di bin, usiamo env_node
